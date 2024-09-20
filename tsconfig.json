@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
-    "target": "ES6" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-    /* Modules */
-    "module": "commonjs" /* Specify what module code is generated. */,
-    "rootDir": "./src" /* Specify the root folder within your source files. */,
-    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
-    /* Type Checking */
-    "strict": true /* Enable all strict type-checking options. */,
-    "esModuleInterop": true
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }
