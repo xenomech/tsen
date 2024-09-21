@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(express.static("public"));
 
-import PingRouter from "./routes/index";
+import PingRouter from "./routes/ping.route";
 import appDataSource from "./config/db";
 app.use("/api", PingRouter);
 
